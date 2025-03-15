@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    background-color: #2d693b;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #2d693b;
+    padding: 40px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; /* Mantiene espacio uniforme */
+}
+
+/* Inputs y select */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b4d2e;
+    color: white;
+}
+
+/* Contenedor de cada grupo de campos */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center; /* Asegura que todo quede alineado */
+}
+
+/* Corrección de alineación */
+.form-group div {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajuste para que los inputs estén alineados */
+.form-group label {
+    white-space: nowrap; /* Evita que el texto de las etiquetas haga saltar la línea */
+}
+
+.form-group input {
+    height: 40px; /* Uniformiza la altura */
+    margin-top: 0; /* Asegura que no haya desfase */
+}
+
+/* Botón */
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: white;
+    color: #2d693b;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
